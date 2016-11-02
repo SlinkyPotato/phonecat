@@ -2,7 +2,7 @@
 
 angular.module('phones')
 .component('phones', {
-	templateUrl: 'phones/phones.template.html',
+	templateUrl: 'app/phones/phones.template.html',
 	controller: function PhonesController() {
 		this.phones = [
 			{
