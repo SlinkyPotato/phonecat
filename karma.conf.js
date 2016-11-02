@@ -9,18 +9,21 @@ module.exports = function(config) {
       '../node_modules/angular-route/angular-route.js',
       '../node_modules/angular-mocks/angular-mocks.js',
       'components/**/*.js',
-      'view*/**/*.js'
+      'view*/**/*.js',
+      '*.test.js',
+      '**/*.test.js'
     ],
 
     autoWatch: true,
 
     frameworks: ['jasmine'],
 
-    browsers: ['Chrome'],
+    browsers: ['Chrome', 'Firefox', 'IE'],
 
     plugins: [
       'karma-chrome-launcher',
       'karma-firefox-launcher',
+      'karma-ie-launcher',
       'karma-jasmine',
       'karma-junit-reporter'
     ],
