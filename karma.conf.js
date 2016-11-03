@@ -1,25 +1,24 @@
 //jshint strict: false
 module.exports = function(config) {
   config.set({
-
     basePath: './app',
-
     files: [
-      '../node_modules/angular/angular.js',
-      '../node_modules/angular-route/angular-route.js',
-      '../node_modules/angular-mocks/angular-mocks.js',
-      'components/**/*.js',
-      'view*/**/*.js',
-      '*.test.js',
+      // Library files, no need to watch files
+      { pattern: '../node_modules/angular/angular.js', watched: false },
+      { pattern: '../node_modules/angular-route/angular-route.js', watched: false },
+      { pattern: '../node_modules/angular-mocks/angular-mocks.js', watched: false },
+      
+      // Core Files
+      '**/*.module.js',
+      '**/*.component.js',
+      '*!(.module|.test).js',
+
+      // Test files
       '**/*.test.js'
     ],
-
     autoWatch: true,
-
     frameworks: ['jasmine'],
-
     browsers: ['Chrome', 'Firefox', 'IE'],
-
     plugins: [
       'karma-chrome-launcher',
       'karma-firefox-launcher',
@@ -27,11 +26,13 @@ module.exports = function(config) {
       'karma-jasmine',
       'karma-junit-reporter'
     ],
-
     junitReporter: {
       outputFile: 'test_out/unit.xml',
       suite: 'unit'
-    }
-
+    },
+    client: {
+      captureConsole: true
+    },
+    colors: true
   });
 };
