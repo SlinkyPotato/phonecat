@@ -3,25 +3,14 @@
 angular.module('phones').
 	component('phones', {
 		templateUrl: 'app/phones/phones.component.html',
-		controller: function PhonesController() {
-			this.phones = [
-				{
-					name: 'Nexus S',
-					snippet: 'Fast just got fater with Nexus S',
-					age: 1
-				},
-				{
-					name: 'Motorola XOOM with Wi-Fi',
-					snippet: 'The Next, Next Generation tablet',
-					age: 2
-				},
-				{
-					name: 'MOTOROLA XOOM',
-					snippet: 'The Next, Next Generation tablet.',
-					age: 3
-				}
-			];
+		controller: ['$http',
+			function PhonesController($http) {
+				let self  = this;
+				self.orderProp = 'age';
 
-			this.orderProp = 'age';
-		}
+				$http.get('/app/phones/mock-phones/phones.json').then(function(response) {
+					self.phones = response.data;
+				});
+			}
+		]
 });
