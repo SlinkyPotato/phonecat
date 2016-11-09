@@ -24,6 +24,33 @@ describe('PhoneCat Application', function() {
       expect(phones.count()).toBe(2);
     });
 
+    it('should be possible to control phone order via the drop-down menu', function() {
+      let queryField = element(by.model('$ctrl.query'));
+      let orderSelect = element(by.model('$ctrl.orderProp'));
+      let nameOption = orderSelect.element(by.css('option[value="name"]'));
+      let phoneNameColumn = element.all(by.repeater('phone in $ctrl.phones').column('phone.name'));
+
+      function getNames() {
+        return phoneNameColumn.map(function(elem) {
+          return elem.getText();
+        });
+      }
+
+      queryField.sendKeys('tablet'); // Let's narrow the datasset to make the assertions shorter
+
+      expect(getNames()).toEqual([
+        'Motorola XOOM with Wi-Fi',
+        'MOTOROLA XOOM'
+      ]);
+
+      nameOption.click();
+
+      expect(getNames()).toEqual([
+        'MOTOROLA XOOM',
+        'Motorola XOOM with Wi-Fi'
+      ]);
+    });
+
   });
 
 });
