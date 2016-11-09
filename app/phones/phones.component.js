@@ -2,7 +2,7 @@
 
 angular.module('phones').
 	component('phones', {
-		templateUrl: 'app/phones/phones.template.html',
+		templateUrl: 'app/phones/phones.component.html',
 		controller: function PhonesController() {
 			this.phones = [
 				{
@@ -10,7 +10,7 @@ angular.module('phones').
 					snippet: 'Fast just got fater with Nexus S'	
 				},
 				{
-					name: 'Motorolla XOOM with Wifi',
+					name: 'Motorola XOOM with Wifi',
 					snippet: 'The Next, Next Generation tablet'
 				},
 				{

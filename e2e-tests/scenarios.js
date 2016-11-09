@@ -2,45 +2,28 @@
 
 /* https://github.com/angular/protractor/blob/master/docs/toc.md */
 
-describe('my app', function() {
+describe('PhoneCat Application', function() {
 
-
-  it('this should automatically pass.', function() {
-    let goodValue = 0;
-    expect(goodValue == 0);
-  });
-  it('should automatically redirect to /view1 when location hash/fragment is empty', function() {
-    browser.get('app/index.html');
-    expect(browser.getLocationAbsUrl()).toMatch("/view1");
-  });
-
-
-  describe('view1', function() {
+  describe('phones', function() {
 
     beforeEach(function() {
-      browser.get('app/index.html#!/view1');
+      browser.get('/index.html');
     });
+    
+    it('should filter the phone list as a user types into the search box', function() {
+      var phones = element.all(by.repeater('phone in $ctrl.phones'));
+      var query = element(by.model('$ctrl.query'));
+      
+      expect(phones.count()).toBe(3);
 
+      query.sendKeys('nexus');
+      expect(phones.count()).toBe(1);
 
-    it('should render view1 when user navigates to /view1', function() {
-      expect(element.all(by.css('[ng-view] p')).first().getText()).
-        toMatch(/partial for view 1/);
-    });
-
-  });
-
-
-  describe('view2', function() {
-
-    beforeEach(function() {
-      browser.get('app/index.html#!/view2');
-    });
-
-
-    it('should render view2 when user navigates to /view2', function() {
-      expect(element.all(by.css('[ng-view] p')).first().getText()).
-        toMatch(/partial for view 2/);
+      query.clear();
+      query.sendKeys('motorola');
+      expect(phones.count()).toBe(2);
     });
 
   });
+
 });
