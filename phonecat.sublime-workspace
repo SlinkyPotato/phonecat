@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"http",
+				"httpBackend"
+			],
+			[
+				"htt",
+				"httpBackend_"
+			],
+			[
+				"compo",
+				"componentController"
+			],
+			[
 				"updat",
 				"updateQueryRequestFormsSQL"
 			],
@@ -24,72 +36,37 @@
 	"buffers":
 	[
 		{
+			"file": "app/phones/phones.component.html",
+			"settings":
+			{
+				"buffer_size": 767,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "app/phones/phones.test.js",
 			"settings":
 			{
-				"buffer_size": 438,
+				"buffer_size": 1163,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/phones/phones.module.js",
+			"file": "e2e-tests/scenarios.js",
 			"settings":
 			{
-				"buffer_size": 44,
+				"buffer_size": 1848,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "karma.conf.js",
-			"settings":
-			{
-				"buffer_size": 975,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "package.json",
-			"settings":
-			{
-				"buffer_size": 1697,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/app.js",
-			"settings":
-			{
-				"buffer_size": 430,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 1715,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/phones/phones.template.html",
-			"settings":
-			{
-				"buffer_size": 114,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "app/phones/phones.component.js",
 			"settings":
 			{
-				"buffer_size": 466,
+				"buffer_size": 361,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -321,27 +298,30 @@
 	"expanded_folders":
 	[
 		"/C/Users/brp14005/Projects/phonecat",
-		"/C/Users/brp14005/Projects/phonecat/app",
-		"/C/Users/brp14005/Projects/phonecat/app/components",
-		"/C/Users/brp14005/Projects/phonecat/app/phones"
+		"/C/Users/brp14005/Projects/phonecat/app"
 	],
 	"file_history":
 	[
+		"/C/Users/brp14005/Projects/phonecat/app/phones/mock-phones/phones.json",
+		"/C/Users/brp14005/Projects/phonecat/app/phones/phones.component.js",
+		"/C/Users/brp14005/Projects/phonecat/index.html",
+		"/C/Users/brp14005/Projects/phonecat/app/app.js",
+		"/C/Users/brp14005/Projects/phonecat/app/phones/phones.test.js",
+		"/C/Users/brp14005/Projects/phonecat/app/phones/phones.module.js",
+		"/C/Users/brp14005/Projects/phonecat/karma.conf.js",
+		"/C/Users/brp14005/Projects/phonecat/app/phones/phones.template.html",
 		"/C/Users/brp14005/Projects/cs4300-os161.zip",
 		"/C/Users/brp14005/Projects/phonecat/app/view1/view1.js",
 		"/C/Users/brp14005/Projects/phonecat/app/view2/view2.js",
-		"/C/Users/brp14005/Projects/phonecat/app/app.js",
 		"/C/Users/brp14005/Projects/phonecat/app/phones/phones.controller.js",
 		"/C/Users/brp14005/Projects/phonecat/e2e-tests/protractor.conf.js",
 		"/C/Users/brp14005/Projects/phonecat/index-async.html",
 		"/C/Users/brp14005/Projects/phonecat/app/components/version/interpolate-filter.js",
 		"/C/Users/brp14005/Projects/phonecat/app/components/version/interpolate-filter_test.js",
 		"/C/Users/brp14005/Projects/phonecat/app/view2/view2_test.js",
-		"/C/Users/brp14005/Projects/phonecat/karma.conf.js",
 		"/C/Users/brp14005/Projects/phonecat/app/components/version/version-directive_test.js",
 		"/C/Users/brp14005/Projects/phonecat/app/components/version/version_test.js",
 		"/C/Users/brp14005/AppData/Roaming/Sublime Text 3/Installed Packages/GitGutter.sublime-package",
-		"/C/Users/brp14005/Projects/phonecat/index.html",
 		"/C/Users/brp14005/Projects/phonecat/app/components/version/version-directive.js",
 		"/C/Users/brp14005/Projects/phonecat/app/components/version/version.js",
 		"/C/Users/brp14005/Projects/phonecat/app/view1/view1_test.js",
@@ -449,12 +429,7 @@
 		"/C/Users/brp14005/Downloads/testpage.html",
 		"/C/Users/brp14005/Google Drive/Work/UConn/Web Development/web9.uits.uconn.edu/intranet/wp-content/themes/OSFAS-Intranet/js/custom.js",
 		"/O/hale_template/template/js/custom.js",
-		"/C/Users/brp14005/Google Drive/Work/UConn/Web Development/web9.uits.uconn.edu/formportal/web_forms/F7829/form.php",
-		"/C/Users/brp14005/Google Drive/Work/UConn/Web Development/web9.uits.uconn.edu/formportal/web_forms/F7829/intro.php",
-		"/C/Users/brp14005/Google Drive/Work/UConn/Web Development/web9.uits.uconn.edu/formportal/web_forms/F7SPC/validation.php",
-		"/C/Users/brp14005/Google Drive/Work/UConn/Web Development/web9.uits.uconn.edu/formportal/web_forms/F7881/validation.php",
-		"/C/Users/brp14005/Google Drive/Work/UConn/Web Development/web9.uits.uconn.edu/formportal/web_forms/F7892/validation.php",
-		"/C/Users/brp14005/Google Drive/Work/UConn/Web Development/web9.uits.uconn.edu/formportal/web_forms/F7DAY/validation.php"
+		"/C/Users/brp14005/Google Drive/Work/UConn/Web Development/web9.uits.uconn.edu/formportal/web_forms/F7829/form.php"
 	],
 	"find":
 	{
@@ -607,61 +582,28 @@
 			[
 				{
 					"buffer": 0,
-					"file": "app/phones/phones.test.js",
+					"file": "app/phones/phones.component.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 438,
+						"buffer_size": 767,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								273,
-								273
+								526,
+								526
 							]
 						],
 						"settings":
 						{
 							"incomplete_sync": null,
-							"open_with_edit": true,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"word_wrap": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "app/phones/phones.module.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 44,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								29,
-								29
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"open_with_edit": true,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -671,20 +613,51 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "karma.conf.js",
+					"buffer": 1,
+					"file": "app/phones/phones.test.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 975,
+						"buffer_size": 1163,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								567,
-								567
+								177,
+								177
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "e2e-tests/scenarios.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1848,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1432,
+								1432
 							]
 						],
 						"settings":
@@ -705,154 +678,24 @@
 				},
 				{
 					"buffer": 3,
-					"file": "package.json",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 1697,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								701,
-								701
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/zz File Icons/languages/JSON (NPM).tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "app/app.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 430,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								219,
-								219
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1715,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1179,
-								1179
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "app/phones/phones.template.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 114,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								114,
-								114
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"open_with_edit": true,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
 					"file": "app/phones/phones.component.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 466,
+						"buffer_size": 361,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								254,
-								254
+								306,
+								306
 							]
 						],
 						"settings":
 						{
 							"incomplete_sync": null,
-							"open_with_edit": true,
 							"remote_loading": false,
 							"synced": false,
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
@@ -862,7 +705,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -920,6 +763,30 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"scenarios.js",
+				"e2e-tests\\scenarios.js"
+			],
+			[
+				"phones.test",
+				"app\\phones\\phones.test.js"
+			],
+			[
+				"e2e",
+				"e2e-tests\\scenarios.js"
+			],
+			[
+				"pohnes.test",
+				"app\\phones\\phones.test.js"
+			],
+			[
+				"phones.component.js",
+				"app\\phones\\phones.component.js"
+			],
+			[
+				"phones.com",
+				"app\\phones\\phones.component.html"
+			],
 			[
 				"karma",
 				"karma.conf.js"
@@ -990,7 +857,7 @@
 	{
 	},
 	"show_minimap": true,
-	"show_open_files": true,
+	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
 	"side_bar_width": 283.0,
