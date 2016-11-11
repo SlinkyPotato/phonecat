@@ -2,8 +2,13 @@
 
 // Declare app level module which depends on views, and components
 angular.module('angularApp', [
+	// Core
 	'ngRoute',
+
+	// Shared
 	'shared',
+
+	// Components
   'phones',
   'phonesDetail'
 ])

@@ -5,6 +5,7 @@ module.exports = function(config) {
     files: [
       // Library files, no need to watch files
       { pattern: '../node_modules/angular/angular.js', watched: false },
+      { pattern: '../node_modules/angular-resource/angular-resource.js', watched: false },
       { pattern: '../node_modules/angular-route/angular-route.js', watched: false },
       { pattern: '../node_modules/angular-mocks/angular-mocks.js', watched: false },
       
