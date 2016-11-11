@@ -10,7 +10,8 @@ module.exports = function(config) {
       
       // Core Files
       '**/*.component.js',
-      '*!(.module|.filter|.test).js',
+      '**/*.filter.js',
+      '*!(.module|.test).js',
 
       // Test files
       '**/*.test.js'
