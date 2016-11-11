@@ -16,7 +16,7 @@ describe('phones', function() {
   	*/
   	beforeEach(inject(function($componentController, _$httpBackend_) {
   		$httpBackend = _$httpBackend_;
-  		$httpBackend.expectGET('/app/phones/mock-phones/phones.json')
+  		$httpBackend.expectGET('/assets/mock-data/phones.json')
   								.respond([{name: 'Nexus S'}, {name: 'Motorola DROID'}]);
   		ctrl = $componentController('phones');
   	}))

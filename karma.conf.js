@@ -9,7 +9,6 @@ module.exports = function(config) {
       { pattern: '../node_modules/angular-mocks/angular-mocks.js', watched: false },
       
       // Core Files
-      '**/*.module.js',
       '**/*.component.js',
       '*!(.module|.test).js',
 

@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('phones', [])
+angular.module('phones', ['ngRoute'])
 
 .component('phones', {
 	templateUrl: 'app/phones/phones.component.html',
