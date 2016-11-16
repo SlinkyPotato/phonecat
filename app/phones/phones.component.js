@@ -2,12 +2,16 @@
 
 angular.module('phones', ['service.phones'])
 
-.component('phones', {
-	templateUrl: 'app/phones/phones.component.html',
-	controller: ['Phone',
-		function PhonesController(Phone) {
-			this.phones = Phone.query();
-			this.orderProp = 'age';
-		}
-	]
-});
+.config(['$routeProvider', function($routeProvider) {
+	$routeProvider.when('/phones', {
+		templateUrl: 'app/phones/phones.component.html',
+		controller: 'PhonesController'
+	});
+}])
+
+.controller('PhonesController', ['$scope', 'Phone',
+function($scope, Phone) {
+	$scope.phones = {};
+	$scope.phones = Phone.query();
+	$scope.orderProp = 'age';
+}]);
